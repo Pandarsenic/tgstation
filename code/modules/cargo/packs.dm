@@ -1245,6 +1245,19 @@
 					/obj/item/vending_refill/drugs)
 	crate_name = "medical supplies crate"
 
+/datum/supply_pack/medical/nonhuman
+	name = "Nonhuman Medicine Crate"
+	desc = "Contains specialized solutions for common ailments of nonhuman staff."
+	cost = CARGO_CRATE_VALUE * 4
+	contains = list(/obj/item/reagent_containers/glass/bottle/epinephrine,
+					/obj/item/reagent_containers/blood/lizard,
+					/obj/item/reagent_containers/blood/ethereal,
+					/obj/item/stack/medical/mesh,
+					/obj/item/stack/medical/suture,
+
+					/obj/item/tank/internals/plasmaman/belt/full)
+	crate_name = "nonhuman medicine crate"
+
 /datum/supply_pack/medical/supplies/fill(obj/structure/closet/crate/C)
 	for(var/i in 1 to 10)
 		var/item = pick(contains)
