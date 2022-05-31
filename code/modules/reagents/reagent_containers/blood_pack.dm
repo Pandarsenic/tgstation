@@ -60,9 +60,11 @@
 
 /obj/item/reagent_containers/blood/lizard
 	blood_type = "L"
+	desc = "Contains lizard blood used for transfusion. Must be attached to an IV drip."
 
 /obj/item/reagent_containers/blood/ethereal
 	blood_type = "LE"
+	desc = "Contains liquid electricity used for transfusion. Must be attached to an IV drip."
 	unique_blood = /datum/reagent/consumable/liquidelectricity
 
 /obj/item/reagent_containers/blood/universal

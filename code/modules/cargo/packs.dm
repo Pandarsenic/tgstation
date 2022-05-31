@@ -1166,7 +1166,7 @@
 /datum/supply_pack/medical/medipen_variety
 	name = "Medipen Variety-Pak"
 	desc = "Contains eight different medipens in three different varieties, to assist in quickly treating seriously injured patients."
-	cost = CARGO_CRATE_VALUE * 3.5
+	cost = CARGO_CRATE_VALUE * 3
 	contains = list(/obj/item/reagent_containers/hypospray/medipen/,
 					/obj/item/reagent_containers/hypospray/medipen/,
 					/obj/item/reagent_containers/hypospray/medipen/ekit,
@@ -1248,13 +1248,16 @@
 /datum/supply_pack/medical/nonhuman
 	name = "Nonhuman Medicine Crate"
 	desc = "Contains specialized solutions for common ailments of nonhuman staff."
-	cost = CARGO_CRATE_VALUE * 4
-	contains = list(/obj/item/reagent_containers/glass/bottle/epinephrine,
-					/obj/item/reagent_containers/blood/lizard,
-					/obj/item/reagent_containers/blood/ethereal,
+	cost = CARGO_CRATE_VALUE * 3
+	contains = list(/obj/item/reagent_containers/hypospray/medipen,
+					/obj/item/reagent_containers/hypospray/medipen,
 					/obj/item/stack/medical/mesh,
 					/obj/item/stack/medical/suture,
-
+					/obj/item/reagent_containers/blood/lizard,
+					/obj/item/reagent_containers/blood/ethereal,
+					/obj/item/organ/ears/cybernetic,
+					/obj/item/storage/pill_bottle/nonhuman,
+					/obj/item/storage/box/bodybags,
 					/obj/item/tank/internals/plasmaman/belt/full)
 	crate_name = "nonhuman medicine crate"
 

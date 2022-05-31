@@ -59,6 +59,21 @@
 	name = "paper- 'Chemical Information'"
 	info = "Known Onboard Toxins:<BR>\n\tGrade A Semi-Liquid Plasma:<BR>\n\t\tHighly poisonous. You cannot sustain concentrations above 15 units.<BR>\n\t\tA gas mask fails to filter plasma after 50 units.<BR>\n\t\tWill attempt to diffuse like a gas.<BR>\n\t\tFiltered by scrubbers.<BR>\n\t\tThere is a bottled version which is very different<BR>\n\t\t\tfrom the version found in canisters!<BR>\n<BR>\n\t\tWARNING: Highly Flammable. Keep away from heat sources<BR>\n\t\texcept in an enclosed fire area!<BR>\n\t\tWARNING: It is a crime to use this without authorization.<BR>\nKnown Onboard Anti-Toxin:<BR>\n\tAnti-Toxin Type 01P: Works against Grade A Plasma.<BR>\n\t\tBest if injected directly into bloodstream.<BR>\n\t\tA full injection is in every regular Med-Kit.<BR>\n\t\tSpecial toxin Kits hold around 7.<BR>\n<BR>\nKnown Onboard Chemicals (other):<BR>\n\tRejuvenation T#001:<BR>\n\t\tEven 1 unit injected directly into the bloodstream<BR>\n\t\t\twill cure unconscious and sleep toxins.<BR>\n\t\tIf administered to a dying patient it will prevent<BR>\n\t\t\tfurther damage for about units*3 seconds.<BR>\n\t\t\tit will not cure them or allow them to be cured.<BR>\n\t\tIt can be administered to a non-dying patient<BR>\n\t\t\tbut the chemicals disappear just as fast.<BR>\n\tMorphine T#054:<BR>\n\t\t5 units will induce precisely 1 minute of sleep.<BR>\n\t\t\tThe effect are cumulative.<BR>\n\t\tWARNING: It is a crime to use this without authorization"
 
+/obj/item/paper/guides/jobs/medical/nonhuman
+	name = "paper- 'Chemical Information'"
+	info = {"<B>Nonhuman Medicines</B><br>Nanotrasen thanks you for your dedication to the welfare of <I>all</I> crew! This kit contains an assortment of medications to ensure nonhuman well-being; most are self-explanatory, but it's important to use them effectively!<BR>\n<BR>
+	\n- Epinephrine medipens can stabilize the dying or preserve the dead.
+	\n- Regenerative Meshes can treat burns, which are particularly dangerous to cold lizards, plasmamen, and podpeople.
+	\n- Sutures can treat brute trauma to plasmamen, flyswatted moths, and ethereals, as well as felinids who have been physically beaten by others for speech impediments.
+	\n- X Packets of hot sauce
+	\n- One tank of plasma internals, ready for use, is included for plasmamen who lose or consume their standard-issue tanks. It should be returned to Nanotrasen if not needed.
+	\n- The pill bottle contains oculine for moths who have been entranced by lights; pentetic acid for pest spray poisoning, weedkiller poisoning, and ethereals who have lost dangerous levels of charge; and high-purity toxins, for slimepeople who have lost blood or who have been poisoned by antitoxins, like the pentetic acid pills.
+	\n- Blood packs of type L (Lizard) and LE (Ethereal, Liquid Electricity). IV Drip not included.
+	\n- A box of body bags, for convenient storage and identification of deceased nonhumans.
+	\n- Finally, there is one set of cybernetic human ears for converting felinids into proper humans.
+	\n- This note provides information on the common dangers to each variety of nonhuman. You may keep it with this kit or in another convenient location."
+	}
+
 /obj/item/paper/fluff/jobs/medical/hippocratic
 	name = "paper- 'Hippocratic Oath'"
 	info = {"<i>I swear to fulfill, to the best of my ability and judgment, this covenant:

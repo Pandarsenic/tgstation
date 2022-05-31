@@ -464,7 +464,6 @@
 	for(var/i in 1 to 3)
 		new /obj/item/reagent_containers/pill/penacid(src)
 
-
 /obj/item/storage/pill_bottle/neurine
 	name = "bottle of neurine pills"
 	desc = "Contains pills to treat non-severe mental traumas."
@@ -472,6 +471,18 @@
 /obj/item/storage/pill_bottle/neurine/PopulateContents()
 	for(var/i in 1 to 5)
 		new /obj/item/reagent_containers/pill/neurine(src)
+
+/obj/item/storage/pill_bottle/nonhuman
+	name = "bottle of nonhuman medications"
+	desc = "Contains three types of pills for treating common problems in nonhuman patients. Don't mix them up!"
+
+/obj/item/storage/pill_bottle/nonhuman/PopulateContents()
+	new /obj/item/reagent_containers/pill/oculine(src)
+	new /obj/item/reagent_containers/pill/oculine(src)
+	new /obj/item/reagent_containers/pill/penacid(src)
+	new /obj/item/reagent_containers/pill/penacid(src)
+	new /obj/item/reagent_containers/pill/tox(src)
+	new /obj/item/reagent_containers/pill/tox(src)
 
 /obj/item/storage/pill_bottle/maintenance_pill
 	name = "bottle of maintenance pills"

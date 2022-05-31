@@ -196,6 +196,13 @@
 	icon_state = "pill22"
 	rename_with_volume = TRUE
 
+/obj/item/reagent_containers/pill/oculine
+	name = "oculine pill"
+	desc = "Used to fix eye damage of any type."
+	list_reagents = list(/datum/reagent/medicine/oculine = 10)
+	icon_state = "pill10"
+	rename_with_volume = TRUE
+
 ///////////////////////////////////////// this pill is used only in a legion mob drop
 /obj/item/reagent_containers/pill/shadowtoxin
 	name = "black pill"
