@@ -65,10 +65,11 @@
 	\n- Epinephrine medipens can stabilize the dying or preserve the dead.
 	\n- Regenerative Meshes can treat burns, which are particularly dangerous to cold lizards, plasmamen, and podpeople.
 	\n- Sutures can treat brute trauma to plasmamen, flyswatted moths, and ethereals, as well as felinids who have been physically beaten by others for speech impediments.
-	\n- X Packets of hot sauce
+	\n- 2 packets of hot sauce in case of low-temperature lizard emergencies.
 	\n- One tank of plasma internals, ready for use, is included for plasmamen who lose or consume their standard-issue tanks. It should be returned to Nanotrasen if not needed.
 	\n- The pill bottle contains oculine for moths who have been entranced by lights; pentetic acid for pest spray poisoning, weedkiller poisoning, and ethereals who have lost dangerous levels of charge; and high-purity toxins, for slimepeople who have lost blood or who have been poisoned by antitoxins, like the pentetic acid pills.
 	\n- Blood packs of type L (Lizard) and LE (Ethereal, Liquid Electricity). IV Drip not included.
+	\n- One beaker, suitable for dissolving pills in water or hot sauce.
 	\n- A box of body bags, for convenient storage and identification of deceased nonhumans.
 	\n- Finally, there is one set of cybernetic human ears for converting felinids into proper humans.
 	\n- This note provides information on the common dangers to each variety of nonhuman. You may keep it with this kit or in another convenient location."
