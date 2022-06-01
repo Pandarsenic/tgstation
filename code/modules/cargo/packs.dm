@@ -1261,7 +1261,8 @@
 					/obj/item/organ/ears/cybernetic,
 					/obj/item/storage/pill_bottle/nonhuman,
 					/obj/item/storage/box/bodybags,
-					/obj/item/tank/internals/plasmaman/belt/full)
+					/obj/item/tank/internals/plasmaman/belt/full,
+					/obj/item/paper/guides/jobs/medical/nonhuman)
 	crate_name = "nonhuman medicine crate"
 
 /datum/supply_pack/medical/supplies/fill(obj/structure/closet/crate/C)
